@@ -281,3 +281,21 @@ h2{
 .about .flex{
     gap: 3rem;
 }
+.counts{
+    background-color: #f6f7f6;
+    padding: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+.counts .flex-item-25{
+    text-align: center;
+    color: #37423b;
+    font-size: 15px;
+}
+
+.counts .flex-item-25 span{
+    font-size: 48px;
+    display: block;
+    color: #5fcf80;
+    font-weight: 700;
+}

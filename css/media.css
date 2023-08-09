@@ -69,7 +69,13 @@
 }
 
 @media (max-width:768px) {
-    
+    .counts .flex{
+        flex-wrap: wrap;
+        row-gap: 2rem;
+    }
+    .counts .flex-item-25{
+        width: 50%;
+    }
 }
 @media (max-width:630px) {
     .logo {
@@ -86,5 +92,8 @@
     }
     .header-content p{
         font-size: 18px;
+    }
+    .counts .flex-item-25{
+        width: 100%;
     }
 }
