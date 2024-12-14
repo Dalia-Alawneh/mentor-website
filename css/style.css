@@ -170,9 +170,10 @@ nav {
 }
 
 .header {
-    background-image: url(../assets/img/hero-bg.jpg);
+    background-image: url(../assets/img/cours.avif);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position-y: -120px;
 }
 
 .header::after {
